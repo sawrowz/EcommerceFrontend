@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300&family=Pangolin&family=Poppins&family=Raleway:wght@100&family=Righteous&family=Roboto+Slab:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="menu.css">
+
+</head>
+
+<body>
+
+    <header id="home">
+        <nav class="navbar navbar-expand-lg" >
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html"><img src="logo.png" alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">HOME</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="menu.html">MENU</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="offer.html">OFFERS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">CONTACT</a>
+                        </li>
+
+                        <li class="nav-item dropdown" >
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                ABOUT
+                            </a>
+                            <ul class="dropdown-menu"  >
+                                <li><a class="dropdown-item" href="#">ABOUT US</a></li>
+                                <li><a class="dropdown-item" href="#">SERVICES</a></li>
+                                <li><a class="dropdown-item" href="#">GALLERY</a></li>
+                                <li><a class="dropdown-item" href="#">REVIEWS</a></li>
+                                <li><a class="dropdown-item" href="#">FAQ</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <a href="menu.html"><button class="order" type="button" class="btn btn-outline-secondary">ORDER</button></a>
+                    <div class="cart d-flex">
+                        <a href=""><i class="bi bi-cart3"></i> | Cart</a>
+                    </div>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+        <!-- 2nd nav bar for menu -->
+        <section>
+            <nav class="navbar navbar-expand-lg sec-navbar">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#home">Navigate Menu Items</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+                        aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarText">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#pizza">PIZZA</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#momo">MOMO</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#burger">BURGER</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#chowmein">CHOWMEIN</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#other">OTHERS</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#drinks">DRINKS</a>
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+            </nav>
+        </section>
+    </header>
+    <!-- header ends --> <br>
+
+    <section>
+        <div class="container home-container">
+            <div class="row">
+                <div class="col-md-12 menu-home">
+                    <h1>Menu Grid</h1>
+                    <p>Some informations about our resturant</p>
+                    <a href="" id="pizza"></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container third-container">
+            <div class="row">
+                <div class="col-md-12 image-col">
+                    <!-- pizza menu -->
+                    <img src="homepizza.jpg" alt="">
+                    <h1>PIZZA</h1>
+                    <div class="row card-row">
+                        <div class="col">
+                            <div class="card" style="width: 20rem;">
+                                <img src="cheesepizza.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">CHEESE PIZZA</h5>
+                                    <p class="card-text">Brust with cheese ! just at
+                                    <div style="color: #4c4b16; font-weight: 700;">Rs 299</div>
+                                    </p>
+                                    <a href="#" class="btn  button1"><i class="bi bi-cart3"></i> | Add to Cart</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card" style="width: 20rem;">
+                                <img src="chickenpizza.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">CHICKEN PIZZA</h5>
+                                    <p class="card-text">Best pizza in Nepali style ! just at
+                                    <div style="color: #4c4b16; font-weight: 700;">Rs 399</div>
+                                    </p>
+                                    <a href="#" class="btn  button1"><i class="bi bi-cart3"></i> | Add to Cart</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card" style="width: 20rem;">
+                                <img src="mushroompizza.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">MUSHROOM PIZZA</h5>
+                                    <p class="card-text">Grab your mushroom pizza ! just at
+                                        <!-- to navigate momo -->
+                                        <a href="" id="momo"></a>
+                                    <div style="color: #4c4b16; font-weight: 700;">Rs 299</div>
+                                    </p>
+
+                                    <a href="#" class="btn  button1"><i class="bi bi-cart3"></i> | Add to Cart</a>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <br>
+                    <!-- MOMO menu -->
+                    <img src="chickenmomo.jpg" alt="">
+                    <h1>MOMO</h1>
+                    <div class="row card-row">
+                        <div class="col">
+                            <div class="card" style="width: 20rem;">
+                                <img src="vegmomo.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">VEG MOMO</h5>
+                                    <p class="card-text">Have your veg MOMO ! just at
+                                    <div style="color: #4c4b16; font-weight: 700;">Rs 100</div>
+                                    </p>
+                                    <a href="#" class="btn  button1"><i class="bi bi-cart3"></i> | Add to Cart</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card" style="width: 20rem;">
+                                <img src="chickenmomo.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">CHICKEN MOMO</h5>
+                                    <p class="card-text">Best MOMO in Nepali style ! just at
+                                    <div style="color: #4c4b16; font-weight: 700;">Rs 150</div>
+                                    </p>
+                                    <a href="#" class="btn  button1"><i class="bi bi-cart3"></i> | Add to Cart</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card" style="width: 20rem;">
+                                <img src="muttonmomo.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">MUTTON MOMO</h5>
+                                    <p class="card-text">Grab your mutton MOMO ! just at
+                                    <div style="color: #4c4b16; font-weight: 700;">Rs 200</div>
+                                    </p>
+
+                                    <a href="#" class="btn  button1"><i class="bi bi-cart3"></i> | Add to Cart</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div> <br>
+
+                    <div class="row card-row">
+                        <div class="col">
+                            <div class="card" style="width: 20rem;">
+                                <img src="paneermomo.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">PANEER MOMO</h5>
+                                    <p class="card-text">Brust with PANEER ! just at
+                                    <div style="color: #4c4b16; font-weight: 700;">Rs 120</div>
+                                    </p>
+                                    <a href="#" class="btn  button1"><i class="bi bi-cart3"></i> | Add to Cart</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card" style="width: 20rem;">
+                                <img src="jholmomo.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">CHICKEN JHOL MOMO</h5>
+                                    <p class="card-text">Best jhol MOMO in Nepali style ! just at
+                                    <div style="color: #4c4b16; font-weight: 700;">Rs 170</div>
+                                    </p>
+                                    <a href="#" class="btn  button1"><i class="bi bi-cart3"></i> | Add to Cart</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card" style="width: 20rem;">
+                                <img src="chillimomo.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">CHILLI MOMO</h5>
+                                    <p class="card-text">Grab your chilli MOMO ! just at
+                                        <!-- to navigate burger -->
+                                        <a href="" id="burger"></a>
+                                    <div style="color: #4c4b16; font-weight: 700;">Rs 200</div>
+                                    </p>
+
+                                    <a href="#" class="btn  button1"><i class="bi bi-cart3"></i> | Add to Cart</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div><br>
+
+                    <!-- Burger menu -->
+                    <img src="burger.png" alt="">
+                    <h1>BURGER</h1>
+                    <div class="row card-row">
+                        <div class="col">
+                            <div class="card" style="width: 20rem;">
+                                <img src="vegburger.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">VEG BURGER</h5>
+                                    <p class="card-text">Best veg burger in town ! just at
+                                    <div style="color: #4c4b16; font-weight: 700;">Rs 100</div>
+                                    </p>
+                                    <a href="#" class="btn  button1"><i class="bi bi-cart3"></i> | Add to Cart</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card" style="width: 20rem;">
+                                <img src="chickenburger.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">CHICKEN BURGER</h5>
+                                    <p class="card-text">WOW! Amazing Chicken burger ! just at
+                                        <!-- to navigate chowmein -->
+                                        <a href="" id="chowmein"></a>
+                                    <div style="color: #4c4b16; font-weight: 700;">Rs 150</div>
+                                    </p>
+                                    <a href="#" class="btn  button1"><i class="bi bi-cart3"></i> | Add to Cart</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card" style="width: 20rem;">
+                                <img src="doublecheeseburger.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">DOUBLE CHEESE BURGER</h5>
+                                    <p class="card-text">Grab your double cheese burger! just at
+                                    <div style="color: #4c4b16; font-weight: 700;">Rs 299</div>
+                                    </p>
+
+                                    <a href="#" class="btn  button1"><i class="bi bi-cart3"></i> | Add to Cart</a>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <br>
+                    <!-- Chowmein menu -->
+                    <img src="vegchowmein.jpg" alt="">
+                    <h1>CHOWMEIN</h1>
+                    <div class="row card-row">
+                        <div class="col">
+                            <div class="card" style="width: 20rem;">
+                                <img src="vegchowmein.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">VEG CHOWMEIN</h5>
+                                    <p class="card-text">Best veg Chowmein in town ! just at
+                                    <div style="color: #4c4b16; font-weight: 700;">Rs 50</div>
+                                    </p>
+                                    <a href="#" class="btn  button1"><i class="bi bi-cart3"></i> | Add to Cart</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card" style="width: 20rem;">
+                                <img src="chowmin.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">CHICKEN CHOWMEIN</h5>
+                                    <p class="card-text">WOW!Chicken Chowmein !just at
+                                        <!-- to navigate others -->
+                                        <a href="" id="other"></a>
+                                    <div style="color: #4c4b16; font-weight: 700;">Rs 130</div>
+                                    </p>
+                                    <a href="#" class="btn  button1"><i class="bi bi-cart3"></i> | Add to Cart</a>
+
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card" style="width: 20rem;">
+                                <img src="thukpa.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">THUKPA</h5>
+                                    <p class="card-text">Grab your hot soupy thukpa! just at
+                                    <div style="color: #4c4b16; font-weight: 700;">Rs 199</div>
+                                    </p>
+
+                                    <a href="#" class="btn  button1"><i class="bi bi-cart3"></i> | Add to Cart</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <!-- Other menu -->
+                    <img src="pasta.jpg" alt="">
+                    <h1>OTHERS</h1>
+                    <div class="row card-row">
+                        <div class="col">
+                            <div class="card" style="width: 20rem;">
+                                <img src="pasta.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">PASTA</h5>
+                                    <p class="card-text">Indian style chicken tikka ! just at
+                                    <div style="color: #4c4b16; font-weight: 700;">Rs 399</div>
+                                    </p>
+                                    <a href="#" class="btn  button1"><i class="bi bi-cart3"></i> | Add
+                                        to Cart</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card" style="width: 20rem;">
+                                <img src="panner.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">PAANEER</h5>
+                                    <p class="card-text">Best momo in Nepali style ! just at
+                                        <!-- to navigate drinks -->
+                                        <a href="" id="drinks"></a>
+                                    <div style="color: #4c4b16; font-weight: 700;">Rs 199</div>
+                                    </p>
+                                    <a href="#" class="btn  button1"><i class="bi bi-cart3"></i> | Add
+                                        to Cart</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card" style="width: 20rem;">
+                                <img src="pulau.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">PULAV</h5>
+                                    <p class="card-text">Best momo in Nepali style ! just at
+                                    <div style="color: #4c4b16; font-weight: 700;">Rs 299</div>
+                                    </p>
+
+                                    <a href="#" class="btn  button1"><i class="bi bi-cart3"></i> | Add
+                                        to Cart</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+
+                    <!-- Drinks menu -->
+                    <img src="mojito.jpg" alt="">
+                    <h1>DRINKS</h1>
+                    <div class="row card-row">
+                        <div class="col">
+                            <div class="card" style="width: 20rem;">
+                                <img src="orangejuice.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">ORANGE JUICE</h5>
+                                    <p class="card-text">SO JUICY ORANGE ! just at
+                                    <div style="color: #4c4b16; font-weight: 700;">Rs 49</div>
+                                    </p>
+                                    <a href="#" class="btn  button1"><i class="bi bi-cart3"></i> | Add
+                                        to Cart</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card" style="width: 20rem;">
+                                <img src="coke.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">COKE</h5>
+                                    <p class="card-text">Feel your thirst ! just at
+                                    <div style="color: #4c4b16; font-weight: 700;">Rs 49</div>
+                                    </p>
+                                    <a href="#" class="btn  button1"><i class="bi bi-cart3"></i> | Add
+                                        to Cart</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card" style="width: 20rem;">
+                                <img src="sprite.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">SPRITE</h5>
+                                    <p class="card-text">Sprite Clear chha ! just at
+                                    <div style="color: #4c4b16; font-weight: 700;">Rs 49</div>
+                                    </p>
+
+                                    <a href="#" class="btn  button1"><i class="bi bi-cart3"></i> | Add
+                                        to Cart</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <br><br>
+    <footer class="bottomfooter">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5"><br><br>
+                    <img src="footerlogo.png" class="logo" alt="logo"><br><br>
+                    <div class="socialmedia">
+                        <img src="social_tw.png" alt="">
+                        <img src="social_fb.png" alt="">
+                        <img src="social_gl.png" alt="">
+                        <img src="social_in.png" alt="">
+                        <img src="social_yt.png" alt="">
+
+                    </div><br>
+                    <p>Want to recieve our awesome
+                        stories?</p><br>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-light" type="submit">Search</button>
+                    </form>
+                    <p>© 18 Design, all rights reserved.</p>
+                </div>
+
+                <div class="col-2">
+                    <br><br>
+                    <p>Email
+                        <br><br>
+                        tannabhojan@gmail.com
+                    </p>
+                </div>
+                <div class="col-md-2">
+                    <br><br>
+                    <div class="footerlist">
+                        <ul>
+                            <li><a href="#About_Us">HOME</a></li>
+                            <li><a href="#how_it_works">MENU</a></li>
+                            <li><a href="#pricing">OFFERS</a></li>
+                            <li><a href="#faq">CONTACT</a></li>
+                            <li><a href="#faq">ABOUT</a></li>
+
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-3"><br><br>
+                    <div class="footerlist">
+                        <ul>
+                            <li><a href="">Lead generation</a></li>
+                            <li><a href="">Customer engagement</a></li>
+                            <li><a href="">Customer support</a></li>
+                            <li><a href="">Help Center Articles</a></li>
+                            <li><a href="">Outbound Messages</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js
+    "></script>
+</body>
+
+</html>
